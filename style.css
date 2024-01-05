@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+}
+
+body {
+  margin: 1rem auto;
+  max-width: 700px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  padding: 0.5rem;
+}
+
+.list a {
+  padding: 0 0.5rem;
+  border-right: 1px solid black;
+  text-decoration: none;
+  color: black;
+}
+
+.list a:last-child {
+  border: none;
+}
+
+a.active {
+  color: blue;
+}
+
+h1 {
+  text-align: center;
+  margin: 1.5rem auto;
+}
+
+#bookContainer {
+  margin-top: 1rem;
+  border: 1px solid black;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  align-items: center;
+}
+
+.container:nth-child(odd) {
+  background-color: lightgrey;
+}
+
+.removeBtn {
+  padding: 0.2rem;
+}
+
+#addBook {
+  margin: 0 auto;
+  max-width: 400px;
+}
+
+#inputTitle {
+  width: 100%;
+  margin-top: 1rem;
+  padding: 0.3rem;
+}
+
+#inputAuthor {
+  width: 100%;
+  padding: 0.3rem;
+}
+
+.button {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#addBtn {
+  padding: 0.2rem 0.3rem;
+}
+
+#contactInfo {
+  max-width: 400px;
+  margin: 5rem auto;
+}
+
+#contactInfo h2 {
+  text-align: center;
+}
+
+.intro {
+  padding: 2rem 0;
+}
+
+#contactInfo ul {
+  list-style: none;
+  padding-left: 1rem;
+}
+
+#contactInfo ul li {
+  padding: 0.3rem 0;
+}
+
+footer {
+  padding: 0.5rem;
+  position: fixed;
+  bottom: 1rem;
+  border: 1px solid #333;
+  width: 700px;
+}
+
+section {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
