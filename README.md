@@ -105,6 +105,6 @@ I would like to thank Let's Code Group.
 ## 📝 License <a name="license"></a>
 
 
-This project is [MIT](https://https://github.com/mioOleen/bookstore/blob/master/LICENSE) licensed.
+This project is [MIT](https://github.com/mioOleen/BookStoreNav/blob/master/LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
