@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book store with Classes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <nav>
+            <p>Awesome Books</p>
+            <div class="list">
+                <a href="#" onclick="showSection('booksList')">Books List</a>
+                <a href="#" onclick="showSection('addBook')">Add Book</a>
+                <a href="#" onclick="showSection('contactInfo')">Contact</a>
+            </div>
+        </nav>
+
+        
+        <section  id="booksList" class="content visible">           
+            <h1>All Awesome Books</h1>
+            <div id="bookContainer"></div>
+        </section>
+
+        <section id="addBook" class="content">
+            <h1>Add a new book</h1>
+            <label for="inputTitle" >Title</label>
+            <input type="text" id="inputTitle" placeholder="Title"><br><br>
+            <label for="inputAuthor">Author</label>
+            <input type="text" id="inputAuthor" placeholder="Author"> <br><br>
+           <div class="button"> <button type="button" id="addBtn">Add</button></div>
+        </section>
+
+        <section id="contactInfo" class="content">
+            <h2>Contact Information</h2>
+            <div class="intro">
+                <p>Do you have any questions or you just want to say "Hello"?</p>
+                <p>You can reach out to us!</p>
+            </div>
+            <ul>
+               <li>- Our eamil mail@mail.com</li>
+               <li>- Our phone number is 09 44557788</li>
+               <li>- Our address is 221B Baker Street</li>
+            </ul>
+        </section>
+
+        <footer>
+            <p>Copyright...</p>
+        </footer>
+
+
+<script src="app.js"></script>
+</body>
+</html>
